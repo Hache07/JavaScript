@@ -43,6 +43,16 @@ let i = 1;
 //i++;
 i--;
 
-console.log(i);
+// console.log(i);
 
+/*
+    Operadores logicos
+    ! - Not: Niega, es decir lo que es verddadero lo vuelve falso y viceversa.
+    || - Or: Cuado tengo dos o mas condiciones, con que una se cumpla, es decir que sea verdadera, la salida sera verdadera.
+    && - And: Cuando tengo dos omas condiciones, con que una no se cumpla, es decir que sea falsa, la salida sera falsa.
+*/
 
+console.log(!true);
+console.log(!false);
+console.log((9 === 9) || ("9" === 9));
+console.log((9 === 9) && ("9" === 9));
