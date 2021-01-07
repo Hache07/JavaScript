@@ -15,7 +15,7 @@ let modulo = 5 % 2;
     === Tres iguales (Comparación estricta) es comparación de valores y tipos de datos.
 */
 
-console.log(8 > 9);
+/* console.log(8 > 9);
 console.log(9 > 8);
 console.log(8 >= 9);
 console.log(9 >= 8);
@@ -28,4 +28,21 @@ console.log(0 == false);
 
 console.log(7 === 7);
 console.log("7" === 7);
-console.log(0 === false);
+console.log(0 === false); */
+
+/*
+    Operadores de incremento y decremento
+*/
+
+let i = 1;
+// i = i +3;
+// i += 3;
+
+// Operador unario
+// i = i + 1;
+//i++;
+i--;
+
+console.log(i);
+
+
