@@ -22,7 +22,7 @@ do {
 //     console.log(i);
 // }
 
-// let frutas = ["uva", "pera", "manzana", "fresa", "pomelo", "sandia"];
+let frutas = ["uva", "pera", "manzana", "fresa", "pomelo", "sandia"];
 
 // for(let i = 0; i < frutas.length; i++) {
 //     console.log(frutas[i]);
@@ -39,6 +39,19 @@ const persona = {
     edad: 26
 }
 
-for(let propiedad in persona) { 
-    console.log(`Key: ${propiedad}: ${persona[propiedad]}`)
+// for(let propiedad in persona) { 
+//     console.log(`Key: ${propiedad}: ${persona[propiedad]}`)
+// }
+
+/*
+    for of
+    for-of: nos permite recorrer cualquier objeto que sea iterable en JS.
+*/
+
+for(let elemento of frutas) {
+    console.log(elemento);
+}
+
+for(let atrib in persona) {
+    console.log(persona[atrib]);
 }
