@@ -18,12 +18,27 @@ do {
 
 /* for */
 
-for(let i = 0; i < 10; i++) {
-    console.log(i);
+// for(let i = 0; i < 10; i++) {
+//     console.log(i);
+// }
+
+// let frutas = ["uva", "pera", "manzana", "fresa", "pomelo", "sandia"];
+
+// for(let i = 0; i < frutas.length; i++) {
+//     console.log(frutas[i]);
+// }
+
+/* 
+    for in
+    for-in: nos ayuda a recorrer las propiedades de un objeto. 
+*/
+
+const persona = {
+    nombre: 'Hector',
+    apellido: 'Ajumado',
+    edad: 26
 }
 
-let frutas = ["uva", "pera", "manzana", "fresa", "pomelo", "sandia"];
-
-for(let i = 0; i < frutas.length; i++) {
-    console.log(frutas[i]);
+for(let propiedad in persona) { 
+    console.log(`Key: ${propiedad}: ${persona[propiedad]}`)
 }
