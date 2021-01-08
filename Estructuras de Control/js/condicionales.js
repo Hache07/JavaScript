@@ -43,9 +43,40 @@
 
 /* Operador ternario (condicion) ? sentencia_1 : sentencia_2 */
 
-console.log('------ OPERADOR TERNARIO ------');
+// console.log('------ OPERADOR TERNARIO ------');
 
-let edad = 25;
-let eresMayor = (edad >= 18) ? 'Eres mayor de edad.' : 'Eres menor de edad.';
+// let edad = 25;
+// let eresMayor = (edad >= 18) ? 'Eres mayor de edad.' : 'Eres menor de edad.';
 
-console.log(eresMayor);
+// console.log(eresMayor);
+
+/* switch - case */
+
+let dia = 62;
+
+switch(dia) {
+    case 0:
+        console.log('Domingo');
+        break;
+    case 1:
+        console.log('Lunes');
+        break;
+    case 2:
+        console.log('Martes');
+        break;
+    case 3:
+        console.log('Miercoles');
+        break;
+    case 4:
+        console.log('Jueves');
+        break;
+    case 5:
+        console.log('Viernes');
+        break;
+    case 6:
+        console.log('Sabado');
+        break;
+    default:
+        console.log('Ingrese un día valido por favor.');
+        break;
+}
